@@ -1,0 +1,58 @@
+## Configurando assinatura nos commits:
+
+git config --global user.name "name"
+git config --global user.email email@example.com
+
+## Inicializando um Repositório em um Diretório Existente
+
+git init
+
+## Clonando um repositorio Existente
+
+*Você clona um repositório com git clone [url].*
+
+git clone git://github.com/schacon/grit.git
+
+## Monitorando e Adicionando Novos Arquivos
+
+git add .
+
+## Comando pra fazer Commit
+
+### Armazena o conteúdo atual do índice em um novo commit, juntamente com uma mensagem de registro do usuário que descreve as mudanças.
+### Se usa o commit depois de já ter feito o git add, para fazer o commit:
+
+git commit -m "Mensagem"
+git commit -m "Mensagem" --amend //(Refazendo commit quando esquecer de adicionar um arquivo no Stage)
+
+## Removendo Arquivos
+
+### Para remover um arquivo do Git, você tem que removê-lo dos arquivos que estão sendo monitorados (mais precisamente, removê-lo da sua área de seleção) e então fazer o commit. 
+
+git rm -f {arquivo}
+
+## Movendo Arquivos 
+
+git mv arquivo_origem arquivo_destino
+
+## Branch basico
+
+### U m branch no Git é simplesmente um leve ponteiro móvel para um dos commits. O nome do branch padrão no Git é master. Como você inicialmente fez commits, você tem um branch principal (master branch) que aponta para o último commit que você fez. Cada vez que você faz um commit ele avança automaticamente.
+### O que acontece se você criar um novo branch? Bem, isso cria um novo ponteiro para que você possa se mover. Vamos dizer que você crie um novo branch chamado testing. Você faz isso com o comando git branch:
+
+git branch testing
+
+### Isso cria um novo ponteiro para o mesmo commit em que você está no momento.
+### Para mudar para um branch existente, você executa o comando git checkout. Vamos mudar para o novo branch testing:
+
+git checkout testing
+
+### Puxando um repositorio do Github com o pull 
+
+git pull origin master
+### Git push 
+
+git push origin master
+
+
+

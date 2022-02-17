@@ -1,0 +1,27 @@
+# Atividades Bootcamp GFT Start #4 .NET
+
+- Boas vindas ao Bootcamp 
+- Logica de programacao Essencial
+- Estrutura de dados e algoritimo 
+- Introducao ao Git/Github
+- Criando seu primeiro repositorio(desafio)
+- Introducao ao ecossistema .net
+- Criando ambiente de desenvolvimento
+- IDE Instalacao e Config (Visual Studio Code)
+- Primeiros passos com .net
+- Trabalhando com tipos de referencia e valor c#
+- Controlando o fluxo de execucao
+- Desafios iniciais - GFT Start #4 .NET
+- Abstraindo um jogo de Rpg e usando orientacao a objetos com c#
+- Introducao HTTP/HTTPS
+- Trabalhando com arquivos e Streams em c#
+- Construtores, propriedades, delegantes e eventos em .net
+- Programando com orientacao a objeto com c#
+- Fundamentos de colecoes LINQ com .net
+- Tratamento de erro em c# com exceptions
+- Desenvolvimento de aplicacoes com .net
+- Configuracao da arquitetura back-end com .net core
+- Criando um app simples de cadastro de serie .net
+- Desafios basicos - GFT Start #4 .NET
+  
+Cada dia um certificado
